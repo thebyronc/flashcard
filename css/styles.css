@@ -2,6 +2,36 @@
 
 }
 
+body {
+  background-color: #262626;
+  color: #f2f2f2;
+}
 .row div {
-  border: .5px solid;
+  border: .5px solid #000;
+  min-height: 200px;
+}
+
+.row div h1 {
+  font-family: sans-serif;
+  font-size: 20px;
+  border-bottom: .5px solid;
+}
+.row p {
+  display: none;
+}
+.row div:hover {
+  display: block;
+  background-color: #303030;
+}
+.row div:hover:nth-child(4n+1)  {
+  color: #4AD9D9;
+}
+.row div:hover:nth-child(4n+2)  {
+  color: #F5A503;
+}
+.row div:hover:nth-child(4n+3)  {
+  color: #757AD1;
+}
+.row div:hover:nth-child(4n+4)  {
+  color: #F2385A;
 }

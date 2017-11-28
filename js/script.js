@@ -1,6 +1,5 @@
 $(document).ready(function() {
-  $("p").click(function() {
-      $("p").removeClass();
-      $("p").addClass("border-box");
+  $(".col-md-3").click(function() {
+    $(this).find("p").toggle();
   });
 });
